@@ -15,33 +15,21 @@
 
     <style>
       html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-
-      .light-theme {
-        background-color: white;
-        color: black;        
-      } 
-
-      .dark-theme {
-        background-color: black;
-        color: white;
-      }
     </style>
   </head>
 
-  <body class="w3-light-grey light-theme" cz-shortcut-listen="true">
+  <body class="w3-light-grey" cz-shortcut-listen="true">
     <!-- Page Container -->
-    <div class="w3-content w3-margin-top light-theme" style="max-width:1400px;">
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+      
       <!-- The Grid -->
-      <div class="w3-row-padding light-theme">
+      <div class="w3-row-padding">
           <!-- Left Column -->
-        <div class="w3-third light-theme">
-          <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-third">
+          <div class="w3-white w3-text-grey w3-card-4 dark-mode">
             <!-- @falvojr: This container has been modified to not use a profile picture. -->
             <div class="w3-container">
               <h2>Adriana Pinheiro Toni</h2>
-              <i class="fa fa-lightbulb-gear w3-margin-right w3-large">
-                <button id="switch-theme-button" onclick="switchTheme()"></button>
-              </i>
             </div>
             <div class="w3-container">
               <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>Desenvolvedor Full Stack</p>
@@ -94,7 +82,7 @@
         </div>
   
         <!-- Right Column -->
-        <div class="w3-twothird light-theme">
+        <div class="w3-twothird">
     
           <div class="w3-container w3-card w3-white w3-margin-bottom">
             <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Sobre</h2>
@@ -202,14 +190,6 @@
       <a href="https://www.linkedin.com/in/adriana-toni-0a7637144/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </footer>
-
-    <script>
-      /* Inversão do tema entre dark e light ao cilicar no botão Inverter Mundos */
-      function switchTheme () {
-        document.body.classList.toggle('dark-theme');
-        document.body.classList.toggle('light-theme');
-      }
-    </script>    
   </body>
 
 </html>
