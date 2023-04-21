@@ -16,6 +16,11 @@
     <style>
       html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
+      body {
+        background-color: white;
+        color: black;        
+      } 
+
       .dark-mode {
         background-color: black;
         color: white;
@@ -24,17 +29,15 @@
   </head>
 
   <body class="w3-light-grey" cz-shortcut-listen="true">
-
-    <button onclick="toogleMode()">Toggle dark mode</button>
-        
     <!-- Page Container -->
     <div class="w3-content w3-margin-top" style="max-width:1400px;">
-  
+      
       <!-- The Grid -->
       <div class="w3-row-padding">
   
         <!-- Left Column -->
         <div class="w3-third">
+          <button onclick="toogleMode()">Toggle dark mode</button>
   
           <div class="w3-white w3-text-grey w3-card-4">
             <!-- @falvojr: This container has been modified to not use a profile picture. -->
